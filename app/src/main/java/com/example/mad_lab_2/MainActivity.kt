@@ -52,6 +52,14 @@ fun OpeningFunction(modifier: Modifier = Modifier) {
         }) {
             Text("Managing State")
         }
+        Spacer(modifier = Modifier.size(20.dp))
+        Button(
+            onClick = {
+                val intent = Intent(context, LayoutsPractice::class.java)
+                context.startActivity(intent)
+        }) {
+            Text("Layouts Practice")
+        }
     }
 
 }
