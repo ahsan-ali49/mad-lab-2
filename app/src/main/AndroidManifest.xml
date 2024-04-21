@@ -25,6 +25,7 @@
         </activity>
         <activity android:name=".ManagingState"/>
         <activity android:name=".LayoutsPractice"/>
+        <activity android:name=".CreatingMultipleRows"/>
     </application>
 
 </manifest>

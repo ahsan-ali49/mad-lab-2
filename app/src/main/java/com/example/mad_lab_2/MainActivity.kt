@@ -60,6 +60,15 @@ fun OpeningFunction(modifier: Modifier = Modifier) {
         }) {
             Text("Layouts Practice")
         }
+        Spacer(modifier = Modifier.size(20.dp))
+        Button(
+            onClick = {
+                val intent = Intent(context, CreatingMultipleRows::class.java)
+                context.startActivity(intent)
+            }
+        ) {
+            Text(text = "Creating Multiple Rows")
+        }
     }
 
 }
