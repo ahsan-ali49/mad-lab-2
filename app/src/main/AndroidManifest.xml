@@ -26,6 +26,7 @@
         <activity android:name=".ManagingState"/>
         <activity android:name=".LayoutsPractice"/>
         <activity android:name=".CreatingMultipleRows"/>
+        <activity android:name=".CreatingGridusingLazyGrid"/>
     </application>
 
 </manifest>

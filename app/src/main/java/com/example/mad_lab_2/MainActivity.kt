@@ -69,6 +69,13 @@ fun OpeningFunction(modifier: Modifier = Modifier) {
         ) {
             Text(text = "Creating Multiple Rows")
         }
+        Spacer(modifier = Modifier.size(20.dp))
+        Button(onClick = {
+            val intent = Intent(context, CreatingGridusingLazyGrid::class.java)
+            context.startActivity(intent)
+        }) {
+            Text(text = "Creating Grid using LazyGrid")
+        }
     }
 
 }
